@@ -1,0 +1,4 @@
+js/config.js
+*.wgt
+.buildResult/
+build/

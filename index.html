@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1920, height=1080">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="css/app.css">
+    <!-- Samsung TV APIs (screen saver control). Missing outside the TV; the app copes. -->
+    <script src="$WEBAPIS/webapis/webapis.js"></script>
+    <script src="js/config.js"></script>
+</head>
+<body>
+    <div id="view"></div>
+    <div id="timer" class="timer hidden"></div>
+    <div id="alarm" class="alarm hidden">
+        <div class="alarm-box">
+            <div class="alarm-title">Timer done</div>
+            <div id="alarm-label" class="alarm-label"></div>
+            <div class="alarm-hint">Press any button</div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
